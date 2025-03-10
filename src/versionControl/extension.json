@@ -1,0 +1,25 @@
+{
+  "callId": "5028a531245740eda7911e7db94937c5",
+  "context": "{\"id\":\"extensions\",\"targetApiKey\":\"4_3TakHZKlQrGd3rTV3UPvGg\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-10T22:34:53.170Z",
+  "result": [
+    {
+      "created": "2024-07-04T15:02:17.6523785Z",
+      "lastModified": "2024-07-04T15:03:02.4186645Z",
+      "extensionFuncUrl": "https://www.test.com/hostValidation",
+      "description": "",
+      "timeout": 1000,
+      "fallback": "IgnoreAllErrors",
+      "headers": [],
+      "integration": "Generic",
+      "id": "28848d7728a945c99d3f05a3378aed89",
+      "extensionPoint": "OnBeforeAccountsRegister",
+      "friendlyName": "validateEmailDomain",
+      "enabled": false
+    }
+  ]
+}

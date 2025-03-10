@@ -1,0 +1,3499 @@
+{
+  "callId": "a3ae6f499aaa47bfa0390a8e5c684a28",
+  "context": "{\"id\":\"schema\",\"targetApiKey\":\"4_3TakHZKlQrGd3rTV3UPvGg\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-10T22:34:53.226Z",
+  "profileSchema": {
+    "fields": {
+      "photoURL": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "certifications.number": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.television.name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "certifications.endDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "certifications.startDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.industry": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "locale": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "skills.level": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.address.postal_code": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "education.startYear": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.books.name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "politicalView": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "skills.skill": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "timezone": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "likes.name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "publications.title": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "publications.summary": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "proxyemail": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.updated_at": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "phones.default": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.middle_name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "skills.years": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "nickname": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.zoneinfo": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "activities": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "patents.title": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "religion": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.movies.name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.website": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "phones.type": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "languages": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.address.country": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.interests.category": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.movies.category": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "verified": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.description": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "hometown": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.books.category": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "patents.status": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.phone_number_verified": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "relationshipStatus": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "age": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.location": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.address.region": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "lastLoginLocation.state": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "lastLoginLocation.city": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "profileURL": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "thumbnailURL": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "work.endDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.company": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "interestedIn": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "birthMonth": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.books.id": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.companySize": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.movies.id": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.address.street_address": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "username": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "zip": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "education.degree": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.address.formatted": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.music.name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "likes.timestamp": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "birthYear": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "industry": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "firstName": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "favorites.interests.id": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "certifications.name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "birthDay": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.title": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "interests": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "likes.id": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "honors": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "bio": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "state": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.locale": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "lastLoginLocation.coordinates.lat": {
+        "required": false,
+        "type": "float",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "lastLoginLocation.coordinates.lon": {
+        "required": false,
+        "type": "float",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "professionalHeadline": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "education.schoolType": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "certifications.authority": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "education.fieldOfStudy": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "address": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.television.id": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "followingCount": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "specialities": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.television.category": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "patents.url": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "patents.summary": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "oidcData.email_verified": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "patents.number": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "likes.time": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "country": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "oidcData.address.locality": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.activities.category": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "patents.date": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.startDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "publications.publisher": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "city": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "publications.url": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "phones.number": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "favorites.activities.id": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "gender": {
+        "required": false,
+        "format": "regex('^[fmu]{1}$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "favorites.music.id": {
+        "required": false,
+        "type": "basic-string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "followersCount": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "lastName": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "education.endYear": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.interests.name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "oidcData.phone_number": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "education.school": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "email": {
+        "required": false,
+        "format": "regex('^(?=(.{1,64}@.{1,255}))([!#$%&'*+\\-\\/=?\\^_`{|}~a-zA-Z0-9}]{1,64}(\\.[!#$%&'*+\\-\\/=?\\^_`{|}~a-zA-Z0-9]{0,}){0,})@((\\[(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}\\])|([a-zA-Z0-9-]{1,63}(\\.[a-zA-Z0-9-]{2,63}){1,}))$')",
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES"
+      },
+      "favorites.music.category": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "educationLevel": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "favorites.activities.name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "work.companyID": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "patents.office": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "encrypt": "AES"
+      },
+      "work.isCurrent": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "lastLoginLocation.country": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "publications.date": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "likes.category": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      }
+    },
+    "dynamicSchema": false
+  },
+  "dataSchema": {
+    "fields": {
+      "externalApplication.applicationCode": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGfelixcatlottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGfelixcatlottery02": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "areaOfInterest.flag": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdAdultsCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "isEmailValid": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "optin.revocationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_Rgnsquikst": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.overweight": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.areaOfInterest.answerDetails": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGbnalavitalottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbnalavitalottery02": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbnalavitalottery03": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbnalavitalottery04": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.milestoneDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.isDeleted": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.answerDetails": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGformagginomiolottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.dentalHealth": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGtermsandcondprm04": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.petTypeCode": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.areaOfInterest.interestType": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.indoorPet": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "subscribe": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGcerealslottery02": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGcerealslottery03": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbnalavita": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGcerealslottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.assetSerialNb": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "gigsys_RGsanpelleglottery04": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGsanpelleglottery02": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGsanpelleglottery03": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGsanpelleglottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "externalApplication.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "nutritionDiet": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.areaOfInterest.interestCode": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.kidneyHealth": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.furType": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "optin.optoutSourceApplication": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGkitkatlottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdOwnsCats": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "terms": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.interestCode": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "salutation": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.areaOfInterest.interestType": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.areaOfInterest.flag": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdChildrenCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "optin.acceptanceDetails": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGperuginalottery02": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGperuginalottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.interestType": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.atopicRisk": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.multipleBirth": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "additionalName2": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "child.areaOfInterest.interestCode": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "additionalName1": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "child.sex": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGfelixcat": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "doNotContactMobile": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.areaOfInterest.flag": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGnestlecollect": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGfriskies": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGnsquikbtslottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGnsquikbtslottery02": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_lastregstep": {
+        "required": false,
+        "type": "string",
+        "allowNull": false,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.petSizeCode": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGbuitoni": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbibitesanpelleg": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.registrationReferenceID": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "maritalStatus": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.name": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "child.applicationInternalIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "externalApplication.internalAlternateIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "mobile": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "digitalAsset.uniformResourceIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "areaOfInterest.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "isPhoneValid": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.applicationInternalIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGfndinlovr": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGlevissimalottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.flag": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGpurinaonelottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.birthDateReliability": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.areaOfInterest.answerDetails": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "nutritionCookingFor": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "nutritionCookingLikes": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "isContactDisallowed": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "doNotContactPhone": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.firstName": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "digitalAsset.applicationInternalIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGproplan": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.breed": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.isDeleted": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.neutered": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdOtherPetsCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "mobileDataQualityStatus": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGnestlevera": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigyaImportJobID": {
+        "required": false,
+        "type": "long",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "liteAppSourceCode": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "isMobileValid": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.digitalAsset.uniformResourceIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "optin.marketingGroupService": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.digestiveSensitivity": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbuitonibdlottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbuitonibdlottery02": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbuitonibdlottery03": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbuitonibdlottery04": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "region": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "occupation": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "optin.contactChannelType": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.adoptionSource": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.digitalAsset.typeOfInformation": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "asset.model": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.birthDateReliability": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.petNutrition": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGnescafelottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGnescafelottery03": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGnescafelottery02": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "digitalAsset.typeOfInformation": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "birthDateReliability": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.senior": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "companyName": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "gigsys_RGnsquikst": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.digitalAsset.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.isDeleted": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "marketCode": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "birthDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.young": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdOwnsDogs": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.coatColor": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "emailDataQualityStatus": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.digitalAsset.applicationInternalIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.areaOfInterest.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.sex": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.details": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGlevissima": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.wetFoodBrand": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGdolcegustolottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGpurinashop": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "areaOfInterest.interestType": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.dryFoodBrand": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "asset.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdDogsCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "zipCodeExtension": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "householdOwnsPets": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.pregnantNursing": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.brand": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.digitalAsset.typeOfInformation": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGpurina": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "education": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.birthDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGpurinaone": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "doNotContactEmail": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.purchaseDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "optin.revocationDetails": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "optin.optinSourceApplication": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "addressLine4": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "optin.acceptanceDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "externalApplication.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "addressLine1": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "addressLine2": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "addressLine3": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "dataQualityStatus": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "addressDataQualityStatus": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "title": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.areaOfInterest.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbeltelottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGgourmetgt": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "phoneDataQualityStatus": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigyaImportAutoPassword": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "serverOnly"
+      },
+      "gigsys_RGsanbitterlottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.areaOfInterest.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.digitalAsset.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.areaOfInterest.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "idxImportJobId": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "serverOnly",
+        "subType": "none"
+      },
+      "consumerType": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.areaOfInterest.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "areaOfInterest.answerDetails": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "doNotContactAddress": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGinfantnutlottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "isPostalAddressValid": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGpetcareschoollottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "nutritionCookingLevel": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.digitalAsset.uniformResourceIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGbaciperuglottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.source": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "gigsys_RGsanbitter": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.feeding": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.skinSensitivity": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "countryCode": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "isPrimary": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGveralottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "areaOfInterest.interestCode": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "child.relationshipType": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "nutritionCookingDislikes": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "asset.assetType": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "asset.registrationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "externalApplication.internalIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "isDeleted": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "nutritionCookingFrequency": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.digitalAsset.applicationInternalIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "digitalAsset.creationDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "asset.warrantyEndDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.applicationInternalIdentifier": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.size": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.hairballCare": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "phone": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "child.initials": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "encrypt": "AES",
+        "subType": "none"
+      },
+      "nutritionSensitiveRisk": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGbibitesanpelleglottery01": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.birthDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.urinarySystemSensitivity": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "initialAppSourceCode": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "nutritionCookingStyle": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "pet.type": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "areaOfInterest.lastUpdateDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.isWomanFirstPregnancy": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "householdCatsCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGpetpassion": {
+        "required": false,
+        "format": "true",
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.adoptionDate": {
+        "required": false,
+        "type": "date",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "pet.workingDog": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_RGinfantnut": {
+        "required": false,
+        "type": "boolean",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "gigsys_ignore": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      },
+      "householdResidentsCount": {
+        "required": false,
+        "type": "integer",
+        "allowNull": true,
+        "writeAccess": "clientModify"
+      },
+      "child.milestone": {
+        "required": false,
+        "type": "string",
+        "allowNull": true,
+        "writeAccess": "clientModify",
+        "subType": "none"
+      }
+    },
+    "dynamicSchema": false
+  },
+  "subscriptionsSchema": {
+    "fields": {
+      "ITnescafebrd_RGnescafelottery02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITmaggi_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé::Vorrei ricevere le offerte e le novità di Maggi dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpurinaone_RGpurinaonelottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITinfantnut_RGinfantnutlottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITfelixbrnd_RGfelixcat": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITcountryfarm_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Purina::Vorrei ricevere offerte e novità sui concorsi e altre comunicazioni di Country Farms dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpetsatwork_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Purina::Vorrei ricevere le offerte e le novità di Pets at Work dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpetpassio_RGpetpassion": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITinfantnut_RGtermsandcondprm02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITgardengourmet_SBmktprogram": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Sì, vorrei ricevere news e promozioni da Garden Gourmet",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpurinabrd_SBpetcareschool": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Purina::Vorrei ricevere le offerte e le novità di Purina Petcare School dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITlevissima_RGlevissima": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbuitonibd_RGbuitonibdlottery03": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbnalavita_RGbnalavitalottery03": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbnalavita_RGbnalavitalottery04": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITfndinlovr_SBfndinlovrnl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Yes, I wish to receive such marketing material concerning Finedininglovers.com",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanpelleg_RGsanpelleglottery04": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnsquikbrd_RGnsquikbtslottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbuitonibd_RGbuitonibdlottery04": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnestlegrp_SBcrossnl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei essere aggiornato su iniziative e offerte anche degli altri prodotti Nestlé, Sanpellegrino e Purina",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbuitonibd_RGbuitoni": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnescafebrd_RGnescafelottery04": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnestle_SBmktprogram": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpurinabrd_RGtermsandcondprm01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnescafebd_SBnescafenl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Orzoro dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnescafebrd_RGnescafelottery03": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITorzoro_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Orzoro dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITdlcegusto_RGdolcegustolottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITmeritene_SBmktprogram": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITlevissima_SBlevissimanl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Vorrei ricevere le offerte e le novità di Levissima dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbnalavita_RGbnalavita": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanpelleg_RGtermsandcondprm05": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITmaggi_RGtermsandcondprm01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpurinabreedselctor_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Purina::Vorrei ricevere le offerte e le novità di Purina Breed Selector dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbnalavita_SBbnalavitanl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé::Vorrei ricevere ricette, buoni sconto e novità da Buona La Vita",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITverabrand_SBnestleveranl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Vorrei ricevere le offerte e le novità di Nestlé Vera dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnescafecarbon_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITkitkatbrd_RGkitkatlottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "MTcollectbd_RGnestlecollect": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITperuginab_RGperuginalottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbeltebrnd_SBbeltenl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Vorrei ricevere le offerte e le novità di Belté dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITkitkat_RGtermsandcondprm03": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITfndinlovr_RGfndinlovr": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITmeritene_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé:: Vorrei ricevere le offerte e le novità di Meritene dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITfelixbrnd_RGfelixcatlottery02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITmeritene_SBmktnewsletter": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITperuginab_RGperuginalottery02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITinfantnut_RGinfantnut": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITfinedining_SBmktemail01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Vorrei ricevere le offerte e le novità di FineDiningLovers.it dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITlevissima_RGlevissimalottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnescafebd_RGnescafelottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnestleuki_OOmrktprg": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITfelixbrnd_RGtermsandcondprm03": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnsquikbrd_RGnsquikbtslottery02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanpelleg_SBcrossnl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Vorrei ricevere le offerte e le novità di Sanpellegrino dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnescafe_SBsamplepostal": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e sample di Nescafé dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITkitkat_RGtermsandcondprm02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanpelleg_RGbibitesanpelleg": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbibitesanpelleg_RGbibitesanpelleglottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITmioinfant_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Nestlé Mio dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnhsdady_SBsamplepostal": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnestlegrp_OOmrktprg": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITgourmetgt_RGgourmetgt": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITcerealbrd_RGcerealslottery03": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpurinabrd_RGpurinashop": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITfinedining_SBmktemail03": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Yes, I wish to receive such marketing material concerning Finedininglovers.com",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "IToptifast_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Optifast dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnescafe_RGtermsandcondprm05": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbuitonibd_RGtermsandcondprm04": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnesquik_RGtermsandcondprm03": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnhs_SBmktprogram": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Nestlé Health Science dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITformagginomio_RGformagginomiolottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITstarbucks_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Starbucks dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbuitonibd_SBbuitoninl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé::Vorrei ricevere le offerte e le novità di Buitoni dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITformagginomio_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé::Vorrei ricevere le offerte e le novità di Formaggino Mio dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanpelleg_Sbcrossnl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnescafe_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Nescafé dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanpelleg_SBsanpellegnl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Vorrei ricevere le offerte e le novità di Sanpellegrino dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITverabrand_RGnestlevera": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpure_SBmktprogram": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITcerealbrd_SBcerealsnl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "CPW::Vorrei ricevere le offerte e le novità di Nestlé Cereali dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnescafe_RGtermsandcondprm06": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITmeritene_RGtermsandcond": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITfinedining_SBmktemail02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Oui, je souhaite recevoir de tels documents marketing concernant Finedininglovers.fr",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnestlehealthscience_SBmktprogram": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Nestlé Health Science dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbaciperug_RGbaciperuglottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnestlehealthscience_SBmktp": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Nestlé Health Science dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITproplnbrd_RGtermsandcondprm01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpetsatwork_RGtermsandcond": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITcerealbrd_RGtermsandcondprm04": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbaciperug_SBbaciperuginanl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé::Vorrei ricevere le offerte e le novità di Baci Perugina dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpurinaone_RGpurinaone": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanpelleg_SBbibitesanpelleg": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Vorrei ricevere le offerte e le novità di Bibite Sanpellegrino dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITcob_RGtermsandcondprm01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITfelixbrnd_RGfelixcatlottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "MTcollectbd_SBnestlecollectnl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Yes, I wish to receive such marketing material concerning the Nestlé Collect",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITacquapanna_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Vorrei ricevere le offerte e le novità di Acqua Panna dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanbitter_SBsanbitternl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Sanpellegrino::Vorrei ricevere le offerte e le novità di Sanbitter dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITmezeast_SBmktprogram": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITthomy_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Thomy: Si vorrei ricevere le offerte e le novità di Thomy dedicate a me.",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "MTnestlegrp_SBcrossnl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Yes, I wish to receive marketing material related to other Nestlé Products not participating in Nestlé Collect",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITfriskibrd_RGfriskies": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsmarties_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Confectionary::Smarties - Si vorrei ricevere le offerte e le novità di Smarties dedicate a me.",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnutripiatto_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Nutripiatto dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITcob_SBmktemail": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Purina::Vorrei ricevere le offerte e le novità di Latte Condensato dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITverabrand_RGveralottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "MTnescafe_SBmktprogram": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Yes, I wish to receive such marketing material concerning Nescafé",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanbitter_RGsanbitterlottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITkitkatbrd_SBkitkatnl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé::Vorrei ricevere le offerte e le novità di KitKat dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanpelleg_RGsanpelleglottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITcountryfarm_RGtermsandcondprm01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanpelleg_RGsanpelleglottery03": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbelte_RGbeltelottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpurinabrd_SBpurinanl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Purina::Vorrei ricevere le offerte e le novità di Purina dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbuitonibd_RGbuitonibdlottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITperuginab_SBperuginanl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Perugina dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbnalavita_RGbnalavitalottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITcerealbrd_RGcerealslottery02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnsquikbrd_RGnsquikst": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanbitter_RGsanbitter": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITkitkat_SBmktprogram": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITinfantnut_SBbbypostal": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé::Vorrei ricevere tutte le news su attività previste nella mia zona",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnestlegrp_SBbbyadvml": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere offerte novità promozioni e altre comunicazioni personalizzate sul mese di gravidanza e/o sui bisogni del mio bambino dal NestlŽ Baby Club.",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnsquikbrd_SBnesquiknl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé ::Vorrei ricevere le offerte e le novità di Nesquik dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITdlcegusto_SBdolcegustonl": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": "Nestlé::Vorrei ricevere le offerte e le novità di Nescafé Dolce Gusto dedicate a me",
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITcerealbrd_RGcerealslottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITnescafe_SBmktprogram": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITproplnbrd_RGproplan": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbuitonibd_RGbuitonibdlottery02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITsanpelleg_RGsanpelleglottery02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpurinabrd_RGpurina": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITbnalavita_RGbnalavitalottery02": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      },
+      "ITpurinabrd_RGpetcareschoollottery01": {
+        "email": {
+          "type": "subscription",
+          "required": false,
+          "doubleOptIn": false,
+          "description": null,
+          "enableConditionalDoubleOptIn": false
+        }
+      }
+    }
+  },
+  "internalSchema": {
+    "fields": {},
+    "dynamicSchema": false
+  },
+  "addressesSchema": {
+    "fields": {}
+  }
+}

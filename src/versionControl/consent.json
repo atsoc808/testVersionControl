@@ -1,0 +1,57 @@
+{
+  "callId": "92742880a0574d908bae4073c3e1b727",
+  "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"4_3TakHZKlQrGd3rTV3UPvGg\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-10T22:34:53.215Z",
+  "preferences": {
+    "terms.testPref": {
+      "isActive": true,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientCreate",
+      "legalStatements": {
+        "en": {
+          "publishedDocDate": "2024-07-01T00:00:00.000Z",
+          "currentDocDate": "2024-07-01T00:00:00.000Z",
+          "minDocDate": "2024-07-01T00:00:00.000Z",
+          "dates": {
+            "2024-07-01T00:00:00.000Z": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.testPrefit": {
+      "isActive": true,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientCreate",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    }
+  }
+}
