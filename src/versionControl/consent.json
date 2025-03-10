@@ -1,0 +1,1190 @@
+{
+  "callId": "3ef314df0ab645e796f7964f8b0e10a6",
+  "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"4_qCAHhv0xK_xu4WeMeYFlCw\"}",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-10T22:43:07.563Z",
+  "preferences": {
+    "terms.USnido_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.nestlenido.com/en/terms-conditions"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnestleusa_RGdonotsellmyinfo": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USfacebookleads_RGprivacypolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USskinnycow_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USchameleon_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USmaggi_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USleanpockets_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnesquikcooler_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UStombstone_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USlifecuisine_RGtermsandcondprm07": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "Description",
+          "value": "Requested by the business (Jonathan F) to upload consumers opted-in during Walmart promotion (Sept and Oct 2020)"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USleancuisinesms_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnestlehotcocoa_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USstouffers_RGtcandprivacyprm02": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "USnestlegrp_RGdonotsellmyinfo": {
+      "isActive": false,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UStasterschoice_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USdigiorno_RGtermsandcondprm09": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnesquik_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UStasteofasia_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USperrier_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USmultibrand_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USwildscapefood_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USelmejornido_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "ar",
+        "en",
+        "es"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.elmejornido.com/en/home/terms"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnestlefoodservices_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnewbynestle_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UScoffeemate_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.coffeemate.com/terms-and-conditions"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UShotpockets_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USgoodnes_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.goodnes.com/terms-conditions"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USbiggayicecream_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USstouffers_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.stouffers.com/en/terms"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USbuitoni_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.buitoni.com/terms"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "USleancuisine_RGtcandprivacyprm01": {
+      "isActive": false,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USstarbucksathome_RGtermsandcondprm05": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "Description",
+          "value": "Consent code created for Starbucks at Home Campaign as requested by Jonathan Foley and the brand team."
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USsanpellegrino_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USchameleon_RGtcandprivacyprm02": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USleancuisine_RGtcandprivacyprm01": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnewbynestle_RGtermsandcondprm02": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "Description",
+          "value": "Consent created to import data from a Goodbe giveaway promotion. The request to import the data was raised by Jonathan Foley and Amita Patel on August 4th 2020."
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnestlegoodfoodgoodlife_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USsweetearth_RGtermsandcondprm01": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "Description",
+          "value": "Requested by Julie Cruz on 06/05/20 on behalf of Jessie Curtis to identify email opt ins obtained from hamburger sweeps/giveaway promotion in May 2020."
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UShotpockets_RGtermsandcondprm06": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "USdigiorno_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": false,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USacquapanna_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USverybestbaking_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.nestleusa.com/terms"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnestlerallies_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnusajebbit_RGabove18": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USlifecuisine_RGtermsandcondprm04": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [
+        {
+          "key": "Description",
+          "value": "Consent code created at the request of Jonathan Foley to capture subscription to a Life Cuisine promotion running in October 2020."
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USoutshine_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "USnestleusa_RGdonotsellmyinfo": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USdigiorno_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USchameleon_RGtcandprivacyprm01": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USdrumstick_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.drumstick.com/terms"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USjacksfrozenpizza_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USlifecuisine_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USsanpellegrinofruitbeverages_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UScarnationhotchocolate_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnestlegrp_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USfrostypaws_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USothers_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UScpkfrozen_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnusajebbit_RGprivacypolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UScocinandoconnestle_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnestleusa_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USsweetearth_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.nestleusa.com/terms"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "other.USnestleusa_RGdonotsellmyinfo": {
+      "isActive": false,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UScarnation_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnescafe_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USvitalpursuit_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "I agree to receive emails from Nestlé and to the Nestlé <a href=\"http://www.nestleusa.com/terms\">Terms & Conditions</a> and <a href=\"https://privacy.nestleusa.com/\">Nestlé USA Privacy Notice</a>.",
+              "documentUrl": "https://www.nestleusa.com/terms",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.USoutsiderspizza_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USnewbynestle_RGtermsandcondprm03": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.ESnestle_RGtermsandcond": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USdreyers_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UScoffeemultibrand_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USleancuisineloyalty_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "purpose": "",
+              "documentUrl": "https://www.nestleusa.com/terms",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.USchameleontea_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USfacebookleads_RGabove18": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USverybestbaking_RGtermsandcondprm08": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.UShaagendazs_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USmaisonperrier_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1.1,
+          "currentDocVersion": 1.1,
+          "minDocVersion": 1.1,
+          "versions": {
+            "1.1": {
+              "purpose": "I agree to receive emails from Nestlé and to the Nestlé <a href=\" http://www.nestleusa.com/terms\">Terms & Conditions</a> and <a href=\" https://privacy.nestleusa.com/\">Nestlé USA Privacy Policy</a>.",
+              "documentUrl": "https://www.nestleusa.com/terms",
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.USleancuisine_RGtcandprivacy": {
+      "isActive": true,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [
+        {
+          "key": "documentURL",
+          "value": "https://www.leancuisine.com/terms"
+        }
+      ],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USstouffers_RGtcandprivacyprm01": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "defaultLang": "en",
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.USlalechera_RGtcandprivacy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en",
+        "es"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 84,
+      "enforceLocaleReconsent": false,
+      "writeAccess": "clientModify",
+      "legalStatements": {}
+    },
+    "terms.testConsent1": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "versions": {
+            "1": {
+              "purpose": "",
+              "LegalStatementStatus": "Draft"
+            }
+          }
+        }
+      }
+    }
+  }
+}

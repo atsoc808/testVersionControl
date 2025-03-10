@@ -1,0 +1,43 @@
+{
+  "callId": "0e4a81c4f2504d22b1c0b7b8e6f63572",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-10T22:43:07.522Z",
+  "baseDomain": "duarte.usnusa.copy",
+  "dataCenter": "us1",
+  "trustedSiteURLs": [
+    "duarte.usnusa.copy/*",
+    "*.duarte.usnusa.copy/*"
+  ],
+  "tags": [],
+  "description": "USNUSA test",
+  "captchaProvider": "Google",
+  "settings": {
+    "CNAME": "",
+    "shortURLDomain": "",
+    "shortURLRedirMethod": "js",
+    "encryptPII": true
+  },
+  "siteGroupConfig": {
+    "enableSSO": false
+  },
+  "trustedShareURLs": [
+    "bit.ly/*",
+    "fw.to/*",
+    "shr.gs/*",
+    "vst.to/*",
+    "socli.ru/*",
+    "s.gigya-api.cn/*"
+  ],
+  "enableDataSharing": true,
+  "isCDP": false,
+  "invisibleRecaptcha": {},
+  "recaptchaV2": {},
+  "funCaptcha": {},
+  "customAPIDomainPrefix": "",
+  "jwtKeyVersion": 3,
+  "enableHSTS": false,
+  "context": "{\"id\":\"webSdk\",\"targetApiKey\":\"4_qCAHhv0xK_xu4WeMeYFlCw\"}"
+}
