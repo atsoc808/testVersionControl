@@ -1,0 +1,44 @@
+{
+  "callId": "e88745a7567e4bd8a846776fdc0899f3",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-10T22:56:01.452Z",
+  "baseDomain": "salvador.test.test1child.com",
+  "siteGroupOwner": "3_u-0wxRhxX8xWC-IZcf8T8L1z6D8s9HphAwei0ekjt5JjpM9kWiFG39V5hxcvWMj7",
+  "dataCenter": "us1",
+  "trustedSiteURLs": [
+    "salvador.test.test1child.com/*",
+    "*.salvador.test.test1child.com/*"
+  ],
+  "tags": [],
+  "description": "",
+  "captchaProvider": "Google",
+  "settings": {
+    "CNAME": "",
+    "shortURLDomain": "",
+    "shortURLRedirMethod": "js",
+    "encryptPII": true
+  },
+  "siteGroupConfig": {
+    "enableSSO": false
+  },
+  "trustedShareURLs": [
+    "bit.ly/*",
+    "fw.to/*",
+    "shr.gs/*",
+    "vst.to/*",
+    "socli.ru/*",
+    "s.gigya-api.cn/*"
+  ],
+  "enableDataSharing": true,
+  "isCDP": false,
+  "invisibleRecaptcha": {},
+  "recaptchaV2": {},
+  "funCaptcha": {},
+  "customAPIDomainPrefix": "",
+  "jwtKeyVersion": 2,
+  "enableHSTS": false,
+  "context": "{\"id\":\"webSdk\",\"targetApiKey\":\"3_6gCPh-93siK8kWdGmHvcnBetDJmk7IDYJOBFBjPYHq1r_GnCh8AiMJ-Fq6FY88KW\"}"
+}
