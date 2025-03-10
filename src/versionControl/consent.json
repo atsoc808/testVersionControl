@@ -1,0 +1,11 @@
+{
+  "callId": "e989a46ca40a40c3abda098f993966ae",
+  "context": "{\"id\":\"consent_consentStatement_get\",\"targetApiKey\":\"3_bUsDqsJZr4J-TTlAGkXYSmiyzKF4PNVkHmFFI0ly5zSn_YpfFS3_ccVlz66cug9m\"}",
+  "errorCode": 400096,
+  "errorDetails": "GetConsentsStatements SiteId: 112048046056 has not migrated it's consent data",
+  "errorMessage": "Not supported",
+  "apiVersion": 2,
+  "statusCode": 400,
+  "statusReason": "Bad Request",
+  "time": "2025-03-10T21:20:42.181Z"
+}
