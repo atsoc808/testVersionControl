@@ -1,0 +1,46 @@
+{
+  "callId": "b148e951134e439aa1d46463f2124df5",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-10T23:23:00.908Z",
+  "baseDomain": "app1.ios",
+  "siteGroupOwner": "4_Ar9nlBq4UUW4Kr2VJ53CFQ",
+  "dataCenter": "eu1",
+  "trustedSiteURLs": [
+    "*app1.ios/*",
+    "app1.ios/*",
+    "site1.com/*",
+    "*.site1.com/*"
+  ],
+  "tags": [],
+  "description": "",
+  "captchaProvider": "Google",
+  "settings": {
+    "CNAME": "",
+    "shortURLDomain": "",
+    "shortURLRedirMethod": "js",
+    "encryptPII": true
+  },
+  "siteGroupConfig": {
+    "enableSSO": false
+  },
+  "trustedShareURLs": [
+    "bit.ly/*",
+    "fw.to/*",
+    "shr.gs/*",
+    "vst.to/*",
+    "socli.ru/*",
+    "s.gigya-api.cn/*"
+  ],
+  "enableDataSharing": true,
+  "isCDP": false,
+  "invisibleRecaptcha": {},
+  "recaptchaV2": {},
+  "funCaptcha": {},
+  "customAPIDomainPrefix": "",
+  "jwtKeyVersion": 2,
+  "enableHSTS": false,
+  "context": "{\"id\":\"webSdk\",\"targetApiKey\":\"4_stqNeU9mBI00D6bnAbcx6g\"}"
+}
