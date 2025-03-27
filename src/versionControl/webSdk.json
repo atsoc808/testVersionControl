@@ -1,0 +1,45 @@
+{
+  "callId": "fe8dc4330e014f0fb749d1c2b088edb0",
+  "errorCode": 0,
+  "apiVersion": 2,
+  "statusCode": 200,
+  "statusReason": "OK",
+  "time": "2025-03-27T17:26:15.719Z",
+  "baseDomain": "duartetest.child1",
+  "logoutURL": "",
+  "dataCenter": "eu1",
+  "trustedSiteURLs": [
+    "duartetest.child1/*",
+    "*.duartetest.child1/*"
+  ],
+  "tags": [],
+  "description": "",
+  "captchaProvider": "Google",
+  "settings": {
+    "CNAME": "",
+    "shortURLDomain": "",
+    "shortURLRedirMethod": "js",
+    "encryptPII": true
+  },
+  "siteGroupConfig": {
+    "enableSSO": false,
+    "SSOSegment": ""
+  },
+  "trustedShareURLs": [
+    "bit.ly/*",
+    "fw.to/*",
+    "shr.gs/*",
+    "vst.to/*",
+    "socli.ru/*",
+    "s.gigya-api.cn/*"
+  ],
+  "enableDataSharing": true,
+  "isCDP": false,
+  "invisibleRecaptcha": {},
+  "recaptchaV2": {},
+  "funCaptcha": {},
+  "customAPIDomainPrefix": "",
+  "jwtKeyVersion": 2,
+  "enableHSTS": false,
+  "context": "{\"id\":\"webSdk\",\"targetApiKey\":\"4_B7f8PKqb6y-kaPuMmuJamg\"}"
+}
