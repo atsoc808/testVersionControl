@@ -1,0 +1,142 @@
+{
+  "preferences": {
+    "terms.AEbuyonline_RGabove18": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocDate": "2022-08-17T00:00:00.000Z",
+          "currentDocDate": "2022-08-17T00:00:00.000Z",
+          "minDocDate": "2022-08-17T00:00:00.000Z",
+          "dates": {
+            "2022-08-17T00:00:00.000Z": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.AEbuyonline_RGprivacypolicy": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientModify",
+      "legalStatements": {
+        "en": {
+          "publishedDocDate": "2022-08-17T00:00:00.000Z",
+          "currentDocDate": "2022-08-17T00:00:00.000Z",
+          "minDocDate": "2022-08-17T00:00:00.000Z",
+          "dates": {
+            "2022-08-17T00:00:00.000Z": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.termsTest": {
+      "isActive": true,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientCreate",
+      "legalStatements": {
+        "en": {
+          "publishedDocDate": "2022-09-21T00:00:00.000Z",
+          "currentDocDate": "2022-09-21T00:00:00.000Z",
+          "minDocDate": "2022-09-21T00:00:00.000Z",
+          "dates": {
+            "2022-09-21T00:00:00.000Z": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ITnhsb2b_RGabove18": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientCreate",
+      "legalStatements": {
+        "en": {
+          "publishedDocDate": "2022-12-01T00:00:00.000Z",
+          "currentDocDate": "2022-12-01T00:00:00.000Z",
+          "minDocDate": "2022-12-01T00:00:00.000Z",
+          "dates": {
+            "2022-12-01T00:00:00.000Z": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.ITnhsb2b_RGabove181": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientCreate",
+      "legalStatements": {
+        "en": {
+          "publishedDocDate": "2022-12-01T00:00:00.000Z",
+          "currentDocDate": "2022-12-01T00:00:00.000Z",
+          "minDocDate": "2022-12-01T00:00:00.000Z",
+          "dates": {
+            "2022-12-01T00:00:00.000Z": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    },
+    "terms.testNumberChange": {
+      "isActive": false,
+      "isMandatory": true,
+      "langs": [
+        "en"
+      ],
+      "customData": [],
+      "consentVaultRetentionPeriod": 36,
+      "enforceLocaleReconsent": true,
+      "writeAccess": "clientCreate",
+      "legalStatements": {
+        "en": {
+          "publishedDocVersion": 1,
+          "currentDocVersion": 1,
+          "minDocVersion": 1,
+          "versions": {
+            "1": {
+              "LegalStatementStatus": "Published"
+            }
+          }
+        }
+      }
+    }
+  }
+}

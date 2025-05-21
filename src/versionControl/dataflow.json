@@ -1,0 +1,1043 @@
+{
+  "resultCount": 9,
+  "totalCount": 9,
+  "result": [
+    {
+      "apiKey": "4_TwW7950ibbn2MjPNDn5IHw",
+      "siteId": 128739699036,
+      "id": "a6186961bbcd45839d14a7d797e71499",
+      "name": "Delete duplicate child/pets",
+      "description": "Empty Flow",
+      "steps": [
+        {
+          "id": "record.evaluate",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQoNCiAgaWYoIXJlY29yZCB8fCAhcmVjb3JkLnByb2ZpbGUgfHwgIXJlY29yZC5kYXRhKSByZXR1cm47DQoNCiAgbGV0IG5yZWMgPSB7IGRhdGE6IHt9IH07DQogIGxldCBucmVjUGV0cyA9IHJlY29yZC5kYXRhLnBldDsNCiAgbGV0IG5yZWNDaGlsZCA9IHJlY29yZC5kYXRhLmNoaWxkOw0KICBsZXQgbm9JbnRlcm5hbElkZW50aWZpZXIgPSBmYWxzZTsNCiAgbGV0IG5vSWRlbnRpZmllckFycmF5UGV0cyA9IFtdOw0KICBsZXQgbm9JZGVudGlmaWVyQXJyYXlDaGlsZCA9IFtdOw0KICBsZXQgbnJlY0Z1bmN0aW9uOw0KICBucmVjLmRldGFpbHMgPSB7fTsNCiAgbnJlYy5lcnJvciA9IHt9Ow0KICANCiAgbGV0IGZpbHRlcmVkQXJyYXkgPSBucmVjUGV0cy5maWx0ZXIoKG9iaiwgaW5kZXgsIG5yZWNQZXRzKSA9PiB7DQogIHJldHVybiBpbmRleCA9PT0gbnJlY1BldHMuZmluZEluZGV4KHQgPT4gdC5uYW1lID09PSBvYmoubmFtZSk7DQp9KTsNCg0KICAgIHJldHVybiBmaWx0ZXJlZEFycmF5Ow0KfQ==",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": false
+          }
+        }
+      ],
+      "createTime": "2023-03-13T00:13:13.012Z",
+      "updateTime": "2023-03-17T16:01:08.328Z",
+      "updatedByEmail": "duarte.costa@sap.com"
+    },
+    {
+      "apiKey": "4_TwW7950ibbn2MjPNDn5IHw",
+      "siteId": 128739699036,
+      "id": "be952ba987374b0a8a698522eb8e854f",
+      "name": "Delete duplicate child/pets - COMPLETE",
+      "description": "Datasource: emailAccounts",
+      "steps": [
+        {
+          "id": "2. Fix records",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQogIC8vIEJhc2UgVmFsaWRhdGlvbg0KICBpZiAoIXJlY29yZCB8fCAhcmVjb3JkLnByb2ZpbGUgfHwgIXJlY29yZC5kYXRhKSByZXR1cm47DQoNCiAgLy8gU2V0dXANCiAgbGV0IHsgVUlELCBoYXNGdWxsQWNjb3VudCwgaGFzTGl0ZUFjY291bnQgfSA9IHJlY29yZDsNCiAgbGV0IHJlYyA9IHsgVUlELCBoYXNGdWxsQWNjb3VudCwgaGFzTGl0ZUFjY291bnQsIHByb2ZpbGU6IHt9LCBkYXRhOiB7fSB9Ow0KICBpZiAocmVjb3JkLnByb2ZpbGUuZW1haWwpIHJlYy5wcm9maWxlLmVtYWlsID0gcmVjb3JkLnByb2ZpbGUuZW1haWw7DQoNCiAgbGV0IHJlY1BldHMgPSByZWNvcmQuZGF0YS5wZXQ7DQogIGxldCBpc0R1cGxpY2F0ZSA9IGZhbHNlOw0KICAvLyBhIGNvbmZpcm1hcjogYWNjb3VudCBxdWUgbuNvIHRlbSBwZXRzIGR1cGxpY2Fkb3MNCiAgLy9jb25maXJtYXIgc2UgcGV0cyBkdXBsaWNhZG9zIHPjbyBiZW0gdXBkYXRlZA0KDQpsZXQgZm91bmRJbmRleDsNCmxldCBmaWx0ZXJlZEFycmF5Ow0KDQogIGlmIChyZWNQZXRzKSB7DQogICAgaWYgKEFycmF5LmlzQXJyYXkocmVjUGV0cykpIHsNCiAgICAgIGZpbHRlcmVkQXJyYXkgPSByZWNQZXRzLmZpbHRlcigob2JqLCBpbmRleCwgcmVjUGV0czEpID0+IHsNCiAgICAgICAgZm91bmRJbmRleCA9IHJlY1BldHMxLmZpbmRJbmRleCgodCkgPT4gdC5uYW1lID09PSBvYmoubmFtZSk7DQoNCiAgICAgICAgaWYgKGZvdW5kSW5kZXggIT09IHVuZGVmaW5lZCAmJiBmb3VuZEluZGV4ICE9PSBpbmRleCkgew0KICAgICAgICAgIGlzRHVwbGljYXRlID0gdHJ1ZTsNCiAgICAgICAgfQ0KICAgICAgfSk7DQogICAgICANCiAgICAgIGlmIChpc0R1cGxpY2F0ZSkgew0KICAgICAgICAgIHJlYy5kYXRhLnBldCA9IGZpbHRlcmVkQXJyYXk7DQogICAgICAgICAgcmV0dXJuIHJlYzsNCiAgICAgIH0NCiAgICB9DQogIH0NCn0NCg==",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": false
+          },
+          "next": [
+            "3a. Evaluate Full",
+            "3b. Evaluate Lite"
+          ],
+          "error": [
+            "2e- Format Error Evaluate "
+          ]
+        },
+        {
+          "id": "3a. Evaluate Full",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQogICAgaWYocmVjb3JkLmhhc0Z1bGxBY2NvdW50KSByZXR1cm4gcmVjb3JkOw0KfQ==",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": false
+          },
+          "next": [
+            "4a. Lookup UID Full by UID"
+          ]
+        },
+        {
+          "id": "3b. Evaluate Lite",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQogICAgaWYocmVjb3JkLmhhc0xpdGVBY2NvdW50ICYmICFyZWNvcmQuaGFzRnVsbEFjY291bnQpIHJldHVybiByZWNvcmQ7DQp9",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": false
+          },
+          "next": [
+            "3ba - Format Json Lite"
+          ],
+          "error": []
+        },
+        {
+          "id": "4a. Lookup UID Full by UID",
+          "type": "datasource.lookup.gigya.account",
+          "params": {
+            "select": "UID",
+            "handleFieldConflicts": "take_lookup",
+            "mismatchBehavior": "error",
+            "lookupFields": [
+              {
+                "sourceField": "UID",
+                "gigyaField": "UID"
+              }
+            ],
+            "lookupFieldsOperator": "OR",
+            "matchBehavior": "process",
+            "isCaseSensitive": false,
+            "maxConcurrency": 1,
+            "from": "accounts",
+            "batchSize": 200,
+            "multiMatchBehavior": "error",
+            "separateMultiMatches": true
+          },
+          "next": [
+            "5a. Remove fields"
+          ],
+          "error": [
+            "6a.e. Lookup UID Full by Email"
+          ]
+        },
+        {
+          "id": "5a. Remove fields",
+          "type": "field.remove",
+          "params": {
+            "fields": [
+              "loginIDs",
+              "hasFullAccount",
+              "hasLiteAccount",
+              "profile.email",
+              "_errorDetails"
+            ]
+          },
+          "next": [
+            "5ab - Format Json Full"
+          ],
+          "error": []
+        },
+        {
+          "id": "6a.e. Lookup UID Full by Email",
+          "type": "datasource.lookup.gigya.account",
+          "params": {
+            "select": "UID",
+            "handleFieldConflicts": "take_lookup",
+            "mismatchBehavior": "error",
+            "lookupFields": [
+              {
+                "sourceField": "profile.email",
+                "gigyaField": "loginIDs.emails"
+              },
+              {
+                "sourceField": "profile.email",
+                "gigyaField": "loginIDs.unverifiedEmails"
+              }
+            ],
+            "lookupFieldsOperator": "OR",
+            "matchBehavior": "process",
+            "isCaseSensitive": false,
+            "maxConcurrency": 1,
+            "from": "accounts",
+            "batchSize": 200,
+            "multiMatchBehavior": "error",
+            "separateMultiMatches": true
+          },
+          "next": [
+            "7.a.e. Fix records for Full after lookup error"
+          ],
+          "error": [
+            "7.a. Format JSON Error Full"
+          ]
+        },
+        {
+          "id": "7.a.e. Fix records for Full after lookup error",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQogIC8vIEJhc2UgVmFsaWRhdGlvbg0KICBpZiAoIXJlY29yZCB8fCAhcmVjb3JkLnByb2ZpbGUgfHwgIXJlY29yZC5kYXRhKSByZXR1cm47DQoNCiAgLy8gU2V0dXANCiAgbGV0IHsgVUlELCBoYXNGdWxsQWNjb3VudCwgaGFzTGl0ZUFjY291bnQgfSA9IHJlY29yZDsNCiAgbGV0IHJlYyA9IHsgVUlELCBoYXNGdWxsQWNjb3VudCwgaGFzTGl0ZUFjY291bnQsIHByb2ZpbGU6IHt9LCBkYXRhOiB7fSB9Ow0KICBpZiAocmVjb3JkLnByb2ZpbGUuZW1haWwpIHJlYy5wcm9maWxlLmVtYWlsID0gcmVjb3JkLnByb2ZpbGUuZW1haWw7DQoNCiAgbGV0IHJlY1BldHMgPSByZWNvcmQuZGF0YS5wZXQ7DQogIGxldCBmaWx0ZXJlZEFycmF5ID0gW107DQogIGxldCBpc0R1cGxpY2F0ZSA9IGZhbHNlOw0KICAvLyBhIGNvbmZpcm1hcjogYWNjb3VudCBxdWUgbuNvIHRlbSBwZXRzIGR1cGxpY2Fkb3MNCiAgLy9jb25maXJtYXIgc2UgcGV0cyBkdXBsaWNhZG9zIHPjbyBiZW0gdXBkYXRlZA0KDQogIGlmIChyZWNQZXRzKSB7DQogICAgaWYgKEFycmF5LmlzQXJyYXkocmVjUGV0cykpIHsNCiAgICAgIGxldCBmaWx0ZXJlZEFycmF5ID0gcmVjUGV0cy5maWx0ZXIoKG9iaiwgaW5kZXgsIHJlY1BldHMpID0+IHsNCiAgICAgICAgY29uc3QgZm91bmRJbmRleCA9IHJlY1BldHMuZmluZEluZGV4KCh0KSA9PiB0Lm5hbWUgPT09IG9iai5uYW1lKTsNCiAgICAgICAgaWYgKGZvdW5kSW5kZXggIT09IGluZGV4KSB7DQogICAgICAgICAgaXNEdXBsaWNhdGUgPSB0cnVlOw0KICAgICAgICB9DQogICAgICAgIHJldHVybiBmb3VuZEluZGV4ID09PSBpbmRleDsNCiAgICAgIH0pOw0KICAgICAgDQogICAgICBpZiAoaXNEdXBsaWNhdGUpIHsNCiAgICAgICAgICByZWMuZGF0YS5wZXQgPSBmaWx0ZXJlZEFycmF5Ow0KICAgICAgICAgIHJldHVybiByZWM7DQogICAgICB9DQogICAgfQ0KICB9DQp9DQo=",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": false
+          },
+          "next": [
+            "5a. Remove fields"
+          ],
+          "error": []
+        },
+        {
+          "id": "7.a. Format JSON Error Full",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "UPDATE-ERROR-FULL-${now}.json",
+            "maxFileSize": 5000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "8. Save errors in S3"
+          ]
+        },
+        {
+          "id": "8. Save errors in S3",
+          "type": "datasource.write.amazon.s3",
+          "params": {
+            "bucketName": "gigya-etl-eu",
+            "accessKey": "AKIAJYPKIUMOHZOH4QZA",
+            "secretKey": "********",
+            "region": "not specified",
+            "objectKeyPrefix": "0781392d-b08f-4ee0-8e40-ef926698c00b/duarte/deleteDuplicatePets/"
+          }
+        },
+        {
+          "id": "1. Read emailAccounts",
+          "type": "datasource.read.gigya.account",
+          "params": {
+            "select": "UID,hasFullAccount,hasLiteAccount,profile,data",
+            "from": "emailAccounts",
+            "deltaField": "lastUpdatedTimestamp",
+            "batchSize": 300,
+            "maxConcurrency": 6,
+            "keepFieldNamesWithDotAsIs": false
+          },
+          "next": [
+            "2. Fix records"
+          ]
+        },
+        {
+          "id": "5ab - Format Json Full",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "FixedFull_${now}.json",
+            "maxFileSize": 1000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "8. Save errors in S3"
+          ]
+        },
+        {
+          "id": "3ba - Format Json Lite",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "FIxLite_${now}.json",
+            "maxFileSize": 1000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "8. Save errors in S3"
+          ]
+        },
+        {
+          "id": "2e- Format Error Evaluate ",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "evaluate_errors_${now}.json",
+            "maxFileSize": 1000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "8. Save errors in S3"
+          ]
+        }
+      ],
+      "createTime": "2023-03-17T15:16:19.687Z",
+      "updateTime": "2024-03-03T11:20:04.697Z",
+      "updatedByName": "System Auto Update",
+      "updatedByEmail": "Avi.kessler+SystemAutoUpdate@sap.com"
+    },
+    {
+      "apiKey": "4_TwW7950ibbn2MjPNDn5IHw",
+      "siteId": 128739699036,
+      "id": "b5103204f416425d9e1cf8fc08d0295f",
+      "name": "Preferences to false",
+      "description": "Empty Flow",
+      "steps": [
+        {
+          "id": "gigya.account",
+          "type": "datasource.read.gigya.account",
+          "params": {
+            "select": "*",
+            "from": "emailAccounts",
+            "deltaField": "lastUpdatedTimestamp",
+            "batchSize": 300,
+            "maxConcurrency": 1,
+            "where": "UID=\"5c350fc3424b440ea4855818a67c11bd\"",
+            "keepFieldNamesWithDotAsIs": false
+          },
+          "next": [
+            "record.evaluate"
+          ]
+        },
+        {
+          "id": "record.evaluate",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQoNCiAgICBpZiAocmVjb3JkLnByZWZlcmVuY2VzKSB7DQogICAgICByZWNvcmQucHJlZmVyZW5jZXMudGVybXMuQUVidXlvbmxpbmVfUkdwcml2YWN5cG9saWN5LmlzQ29uc2VudEdyYW50ZWQgPSBmYWxzZTsNCiAgICB9DQoNCiAgICByZXR1cm4gcmVjb3JkOw0KfQ==",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": false
+          },
+          "next": [
+            "gigya.account - Copy"
+          ]
+        },
+        {
+          "id": "gigya.account - Copy",
+          "type": "datasource.write.gigya.account",
+          "params": {
+            "updatePolicy": "append",
+            "maxConnections": 10
+          }
+        }
+      ],
+      "createTime": "2023-02-09T11:12:30.106Z",
+      "updateTime": "2024-03-03T10:29:48.607Z",
+      "updatedByName": "System Auto Update",
+      "updatedByEmail": "Avi.kessler+SystemAutoUpdate@sap.com"
+    },
+    {
+      "apiKey": "4_TwW7950ibbn2MjPNDn5IHw",
+      "siteId": 128739699036,
+      "id": "e4d64176e5d542bcba6ea88af049dacc",
+      "name": "Delete Duplicate Pets - New logic",
+      "description": "Empty Flow",
+      "steps": [
+        {
+          "id": "2. Fix records",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQogIGlmICghcmVjb3JkIHx8ICFyZWNvcmQucHJvZmlsZSB8fCAhcmVjb3JkLmRhdGEpIHJldHVybjsNCg0KICBsZXQgdW5pcXVlTmFtZXMgPSBbXTsNCiAgbGV0IHJlc3VsdCA9IFtdOw0KDQogIGxldCByZWMgPSByZWNvcmQ7DQogIGxldCByZWNQZXRzID0gcmVjb3JkLmRhdGEucGV0Ow0KDQogIGlmIChyZWNQZXRzKSB7DQogICAgaWYgKEFycmF5LmlzQXJyYXkocmVjUGV0cykpIHsNCiAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgcmVjUGV0cy5sZW5ndGg7IGkrKykgew0KICAgICAgICBsZXQgb2JqID0gcmVjUGV0c1tpXTsNCg0KICAgICAgICAvLyBDaGVjayBpZiB0aGUgb2JqZWN0IGhhcyBhICJuYW1lIiBwcm9wZXJ0eQ0KICAgICAgICBpZiAoIW9iai5oYXNPd25Qcm9wZXJ0eSgibmFtZSIpKSB7DQogICAgICAgICAgcmVzdWx0LnB1c2gob2JqKTsNCiAgICAgICAgICBjb250aW51ZTsNCiAgICAgICAgfQ0KDQogICAgICAgIC8vIENoZWNrIGlmIHRoZSBvYmplY3QncyAibmFtZSIgcHJvcGVydHkgaXMgdW5pcXVlDQogICAgICAgIGlmICh1bmlxdWVOYW1lcy5pbmRleE9mKG9iai5uYW1lKSA9PT0gLTEpIHsNCiAgICAgICAgICB1bmlxdWVOYW1lcy5wdXNoKG9iai5uYW1lKTsNCiAgICAgICAgICByZXN1bHQucHVzaChvYmopOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgIC8vIElmIHRoZSAibmFtZSIgcHJvcGVydHkgaXMgbm90IHVuaXF1ZSwgZmluZCB0aGUgaW5kZXggb2YgdGhlIGZpcnN0IG9jY3VycmVuY2UNCiAgICAgICAgICBsZXQgaW5kZXggPSB1bmlxdWVOYW1lcy5pbmRleE9mKG9iai5uYW1lKTsNCiAgICAgICAgICBsZXQgb2xkT2JqID0gcmVzdWx0W2luZGV4XTsNCg0KICAgICAgICAgIC8vIElmIGJvdGggb2JqZWN0cyBoYXZlIGEgImJpcnRoRGF0ZSIgcHJvcGVydHksIHJlbW92ZSB0aGUgb25lIHdpdGggdGhlIG9sZGVzdCBkYXRlDQogICAgICAgICAgaWYgKG9iai5iaXJ0aERhdGUgJiYgb2xkT2JqLmJpcnRoRGF0ZSkgew0KICAgICAgICAgICAgbGV0IGJpcnRoRGF0ZTEgPSBuZXcgRGF0ZShvYmouYmlydGhEYXRlKTsNCiAgICAgICAgICAgIGxldCBiaXJ0aERhdGUyID0gbmV3IERhdGUob2xkT2JqLmJpcnRoRGF0ZSk7DQogICAgICAgICAgICBpZiAoYmlydGhEYXRlMSA+IGJpcnRoRGF0ZTIpIHsNCiAgICAgICAgICAgICAgcmVzdWx0W2luZGV4XSA9IG9iajsNCiAgICAgICAgICAgIH0NCiAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgIH0NCiAgICAgIHJlY1BldHMgPSByZXN1bHQ7DQogICAgICByZXR1cm4gcmVjUGV0czsNCiAgICB9DQogIH0NCn0NCg==",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": false
+          },
+          "next": [
+            "3a. Evaluate Full",
+            "3b. Evaluate Lite"
+          ],
+          "error": [
+            "2e- Format Error Evaluate "
+          ]
+        },
+        {
+          "id": "3a. Evaluate Full",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQogICAgaWYocmVjb3JkLmhhc0Z1bGxBY2NvdW50KSByZXR1cm4gcmVjb3JkOw0KfQ==",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": false
+          },
+          "next": [
+            "4a. Lookup UID Full by UID"
+          ]
+        },
+        {
+          "id": "3b. Evaluate Lite",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQogICAgaWYocmVjb3JkLmhhc0xpdGVBY2NvdW50ICYmICFyZWNvcmQuaGFzRnVsbEFjY291bnQpIHJldHVybiByZWNvcmQ7DQp9",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": false
+          },
+          "next": [
+            "3ba - Format Json Lite"
+          ],
+          "error": []
+        },
+        {
+          "id": "4a. Lookup UID Full by UID",
+          "type": "datasource.lookup.gigya.account",
+          "params": {
+            "select": "UID",
+            "handleFieldConflicts": "take_lookup",
+            "mismatchBehavior": "error",
+            "lookupFields": [
+              {
+                "sourceField": "UID",
+                "gigyaField": "UID"
+              }
+            ],
+            "lookupFieldsOperator": "OR",
+            "matchBehavior": "process",
+            "isCaseSensitive": false,
+            "maxConcurrency": 1,
+            "from": "accounts",
+            "batchSize": 200,
+            "multiMatchBehavior": "error",
+            "separateMultiMatches": true
+          },
+          "next": [
+            "5a. Remove fields"
+          ],
+          "error": [
+            "6a.e. Lookup UID Full by Email"
+          ]
+        },
+        {
+          "id": "5a. Remove fields",
+          "type": "field.remove",
+          "params": {
+            "fields": [
+              "loginIDs",
+              "hasFullAccount",
+              "hasLiteAccount",
+              "profile.email",
+              "_errorDetails"
+            ]
+          },
+          "next": [
+            "5ab - Format Json Full"
+          ],
+          "error": []
+        },
+        {
+          "id": "6a.e. Lookup UID Full by Email",
+          "type": "datasource.lookup.gigya.account",
+          "params": {
+            "select": "UID",
+            "handleFieldConflicts": "take_lookup",
+            "mismatchBehavior": "error",
+            "lookupFields": [
+              {
+                "sourceField": "profile.email",
+                "gigyaField": "loginIDs.emails"
+              },
+              {
+                "sourceField": "profile.email",
+                "gigyaField": "loginIDs.unverifiedEmails"
+              }
+            ],
+            "lookupFieldsOperator": "OR",
+            "matchBehavior": "process",
+            "isCaseSensitive": false,
+            "maxConcurrency": 1,
+            "from": "accounts",
+            "batchSize": 200,
+            "multiMatchBehavior": "error",
+            "separateMultiMatches": true
+          },
+          "next": [
+            "7.a.e. Fix records for Full after lookup error"
+          ],
+          "error": [
+            "7.a. Format JSON Error Full"
+          ]
+        },
+        {
+          "id": "7.a.e. Fix records for Full after lookup error",
+          "type": "record.evaluate",
+          "params": {
+            "script": "ZnVuY3Rpb24gcHJvY2VzcyhyZWNvcmQsIGN0eCwgbG9nZ2VyLCBuZXh0KSB7DQogIGlmICghcmVjb3JkIHx8ICFyZWNvcmQucHJvZmlsZSB8fCAhcmVjb3JkLmRhdGEpIHJldHVybjsNCg0KICBsZXQgdW5pcXVlTmFtZXMgPSBbXTsNCiAgbGV0IHJlc3VsdCA9IFtdOw0KDQogIGxldCByZWMgPSByZWNvcmQ7DQogIGxldCByZWNQZXRzID0gcmVjb3JkLmRhdGEucGV0Ow0KDQogIGlmIChyZWNQZXRzKSB7DQogICAgaWYgKEFycmF5LmlzQXJyYXkocmVjUGV0cykpIHsNCiAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgcmVjUGV0cy5sZW5ndGg7IGkrKykgew0KICAgICAgICBsZXQgb2JqID0gcmVjUGV0c1tpXTsNCg0KICAgICAgICAvLyBDaGVjayBpZiB0aGUgb2JqZWN0IGhhcyBhICJuYW1lIiBwcm9wZXJ0eQ0KICAgICAgICBpZiAoIW9iai5oYXNPd25Qcm9wZXJ0eSgibmFtZSIpKSB7DQogICAgICAgICAgcmVzdWx0LnB1c2gob2JqKTsNCiAgICAgICAgICBjb250aW51ZTsNCiAgICAgICAgfQ0KDQogICAgICAgIC8vIENoZWNrIGlmIHRoZSBvYmplY3QncyAibmFtZSIgcHJvcGVydHkgaXMgdW5pcXVlDQogICAgICAgIGlmICh1bmlxdWVOYW1lcy5pbmRleE9mKG9iai5uYW1lKSA9PT0gLTEpIHsNCiAgICAgICAgICB1bmlxdWVOYW1lcy5wdXNoKG9iai5uYW1lKTsNCiAgICAgICAgICByZXN1bHQucHVzaChvYmopOw0KICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgIC8vIElmIHRoZSAibmFtZSIgcHJvcGVydHkgaXMgbm90IHVuaXF1ZSwgZmluZCB0aGUgaW5kZXggb2YgdGhlIGZpcnN0IG9jY3VycmVuY2UNCiAgICAgICAgICBsZXQgaW5kZXggPSB1bmlxdWVOYW1lcy5pbmRleE9mKG9iai5uYW1lKTsNCiAgICAgICAgICBsZXQgb2xkT2JqID0gcmVzdWx0W2luZGV4XTsNCg0KICAgICAgICAgIC8vIElmIGJvdGggb2JqZWN0cyBoYXZlIGEgImJpcnRoRGF0ZSIgcHJvcGVydHksIHJlbW92ZSB0aGUgb25lIHdpdGggdGhlIG9sZGVzdCBkYXRlDQogICAgICAgICAgaWYgKG9iai5iaXJ0aERhdGUgJiYgb2xkT2JqLmJpcnRoRGF0ZSkgew0KICAgICAgICAgICAgbGV0IGJpcnRoRGF0ZTEgPSBuZXcgRGF0ZShvYmouYmlydGhEYXRlKTsNCiAgICAgICAgICAgIGxldCBiaXJ0aERhdGUyID0gbmV3IERhdGUob2xkT2JqLmJpcnRoRGF0ZSk7DQogICAgICAgICAgICBpZiAoYmlydGhEYXRlMSA+IGJpcnRoRGF0ZTIpIHsNCiAgICAgICAgICAgICAgcmVzdWx0W2luZGV4XSA9IG9iajsNCiAgICAgICAgICAgIH0NCiAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgIH0NCiAgICAgIHJlY1BldHMgPSByZXN1bHQ7DQogICAgICByZXR1cm4gcmVjUGV0czsNCiAgICB9DQogIH0NCn0NCg==",
+            "ECMAScriptVersion": "12",
+            "notifyLastRecord": false
+          },
+          "next": [
+            "5a. Remove fields"
+          ],
+          "error": []
+        },
+        {
+          "id": "7.a. Format JSON Error Full",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "UPDATE-ERROR-FULL-${now}.json",
+            "maxFileSize": 5000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "8. Save errors in S3"
+          ]
+        },
+        {
+          "id": "8. Save errors in S3",
+          "type": "datasource.write.amazon.s3",
+          "params": {
+            "bucketName": "gigya-etl-eu",
+            "accessKey": "AKIAJYPKIUMOHZOH4QZA",
+            "secretKey": "********",
+            "region": "not specified",
+            "objectKeyPrefix": "0781392d-b08f-4ee0-8e40-ef926698c00b/duarte/deleteDuplicatePets/"
+          }
+        },
+        {
+          "id": "1. Read emailAccounts",
+          "type": "datasource.read.gigya.account",
+          "params": {
+            "select": "UID,hasFullAccount,hasLiteAccount,profile,data",
+            "from": "emailAccounts",
+            "deltaField": "lastUpdatedTimestamp",
+            "batchSize": 300,
+            "maxConcurrency": 6,
+            "keepFieldNamesWithDotAsIs": false
+          },
+          "next": [
+            "2. Fix records"
+          ]
+        },
+        {
+          "id": "5ab - Format Json Full",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "FixedFull_${now}.json",
+            "maxFileSize": 1000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "8. Save errors in S3"
+          ]
+        },
+        {
+          "id": "3ba - Format Json Lite",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "FIxLite_${now}.json",
+            "maxFileSize": 1000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "8. Save errors in S3"
+          ]
+        },
+        {
+          "id": "2e- Format Error Evaluate ",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "evaluate_errors_${now}.json",
+            "maxFileSize": 1000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "8. Save errors in S3"
+          ]
+        }
+      ],
+      "createTime": "2023-03-23T16:38:37.763Z",
+      "updateTime": "2024-03-03T09:43:44.482Z",
+      "updatedByName": "System Auto Update",
+      "updatedByEmail": "Avi.kessler+SystemAutoUpdate@sap.com"
+    },
+    {
+      "apiKey": "4_TwW7950ibbn2MjPNDn5IHw",
+      "siteId": 128739699036,
+      "id": "54fd916366384f209f56c7168f37821f",
+      "name": "Krux_Dataflow",
+      "status": "draft",
+      "description": "account > rename > krux > lzo > s3",
+      "steps": [
+        {
+          "id": "account",
+          "type": "datasource.read.gigya.account",
+          "params": {
+            "select": "UID,profile.gender,profile.age",
+            "from": "accounts",
+            "deltaField": "lastUpdatedTimestamp",
+            "keepFieldNamesWithDotAsIs": false,
+            "batchSize": 300,
+            "maxConcurrency": 1
+          },
+          "next": [
+            "rename"
+          ]
+        },
+        {
+          "id": "rename",
+          "type": "field.rename",
+          "params": {
+            "fields": [
+              {
+                "sourceField": "UID",
+                "targetField": "id"
+              },
+              {
+                "sourceField": "profile.gender",
+                "targetField": "g_gender"
+              },
+              {
+                "sourceField": "profile.age",
+                "targetField": "g_age"
+              },
+              {
+                "sourceField": "profile.likes",
+                "targetField": "likes"
+              }
+            ]
+          },
+          "next": [
+            "krux"
+          ]
+        },
+        {
+          "id": "krux",
+          "type": "file.format.krux",
+          "params": {
+            "fileName": "Gigya_Krux_M6.csv",
+            "createEmptyFile": true,
+            "quoteFields": false,
+            "separator": ";"
+          },
+          "next": [
+            "lzo"
+          ]
+        },
+        {
+          "id": "lzo",
+          "type": "file.compress.lzo",
+          "params": {
+            "createIndexFile": true
+          },
+          "next": [
+            "s3"
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "datasource.write.amazon.s3",
+          "params": {
+            "bucketName": "...",
+            "accessKey": "...",
+            "secretKey": "********",
+            "objectKeyPrefix": "...",
+            "region": "not specified"
+          }
+        }
+      ],
+      "createTime": "2025-01-10T15:05:50.085Z",
+      "updateTime": "2025-01-10T15:05:50.085Z",
+      "updatedByEmail": "g.lopes@sap.com"
+    },
+    {
+      "apiKey": "4_TwW7950ibbn2MjPNDn5IHw",
+      "siteId": 128739699036,
+      "id": "38a2ed5c6d9a4c578bdbbdfd01ebee5a",
+      "name": "Import Lite Accounts from SFTP",
+      "status": "draft",
+      "description": "sftp > parse > injectJobId > importLiteAccount > format > sftp",
+      "steps": [
+        {
+          "id": "Read files from SFTP",
+          "type": "datasource.read.sftp",
+          "params": {
+            "host": "...",
+            "username": "...",
+            "password": "********",
+            "fileNameRegex": ".*.json",
+            "port": 22,
+            "sortOrder": "ASC",
+            "sortBy": "time",
+            "timeout": 60
+          },
+          "next": [
+            "parse JSON"
+          ]
+        },
+        {
+          "id": "parse JSON",
+          "type": "file.parse.json",
+          "params": {
+            "addFilename": false
+          },
+          "next": [
+            "sharedvariable"
+          ]
+        },
+        {
+          "id": "Import Lite Account",
+          "type": "datasource.write.gigya.generic",
+          "params": {
+            "apiMethod": "accounts.importLiteAccount",
+            "maxConnections": 20,
+            "apiParams": [
+              {
+                "sourceField": "profile",
+                "paramName": "profile",
+                "value": ""
+              },
+              {
+                "sourceField": "data",
+                "paramName": "data",
+                "value": ""
+              },
+              {
+                "sourceField": "email",
+                "paramName": "email",
+                "value": ""
+              }
+            ],
+            "addResponse": false
+          },
+          "next": [],
+          "error": [
+            "Format Error File"
+          ]
+        },
+        {
+          "id": "Format Error File",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "import_lite_accounts_errors_${now}.json",
+            "maxFileSize": 5000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "Save errors to SFTP"
+          ]
+        },
+        {
+          "id": "Save errors to SFTP",
+          "type": "datasource.write.sftp",
+          "params": {
+            "host": "...",
+            "username": "...",
+            "password": "********",
+            "port": 22,
+            "remotePath": "errors",
+            "temporaryUploadExtension": true,
+            "timeout": 60
+          }
+        },
+        {
+          "id": "sharedvariable",
+          "type": "datasource.read.sharedvariable",
+          "next": [
+            "Import Lite Account"
+          ]
+        }
+      ],
+      "createTime": "2025-01-10T15:05:50.11Z",
+      "updateTime": "2025-01-10T15:05:50.11Z",
+      "updatedByEmail": "g.lopes@sap.com"
+    },
+    {
+      "apiKey": "4_TwW7950ibbn2MjPNDn5IHw",
+      "siteId": 128739699036,
+      "id": "1eedb8b11ca44e81bb08e2ce3d80fe3a",
+      "name": "Import Lite Accounts from SFTP",
+      "status": "draft",
+      "description": "sftp > parse > injectJobId > importLiteAccount > format > sftp",
+      "steps": [
+        {
+          "id": "Read files from SFTP",
+          "type": "datasource.read.sftp",
+          "params": {
+            "host": "...",
+            "username": "...",
+            "password": "********",
+            "fileNameRegex": ".*.json",
+            "port": 22,
+            "sortOrder": "ASC",
+            "sortBy": "time",
+            "timeout": 60
+          },
+          "next": [
+            "parse JSON"
+          ]
+        },
+        {
+          "id": "parse JSON",
+          "type": "file.parse.json",
+          "params": {
+            "addFilename": false
+          },
+          "next": [
+            "sharedvariable"
+          ]
+        },
+        {
+          "id": "Import Lite Account",
+          "type": "datasource.write.gigya.generic",
+          "params": {
+            "apiMethod": "accounts.importLiteAccount",
+            "maxConnections": 20,
+            "apiParams": [
+              {
+                "sourceField": "profile",
+                "paramName": "profile",
+                "value": ""
+              },
+              {
+                "sourceField": "data",
+                "paramName": "data",
+                "value": ""
+              },
+              {
+                "sourceField": "email",
+                "paramName": "email",
+                "value": ""
+              }
+            ],
+            "addResponse": false
+          },
+          "next": [],
+          "error": [
+            "Format Error File"
+          ]
+        },
+        {
+          "id": "Format Error File",
+          "type": "file.format.json",
+          "params": {
+            "fileName": "import_lite_accounts_errors_${now}.json",
+            "maxFileSize": 5000,
+            "createEmptyFile": false
+          },
+          "next": [
+            "Save errors to SFTP"
+          ]
+        },
+        {
+          "id": "Save errors to SFTP",
+          "type": "datasource.write.sftp",
+          "params": {
+            "host": "...",
+            "username": "...",
+            "password": "********",
+            "port": 22,
+            "remotePath": "errors",
+            "temporaryUploadExtension": true,
+            "timeout": 60
+          }
+        },
+        {
+          "id": "sharedvariable",
+          "type": "datasource.read.sharedvariable",
+          "next": [
+            "Import Lite Account"
+          ]
+        }
+      ],
+      "createTime": "2025-01-10T15:05:50.222Z",
+      "updateTime": "2025-01-10T15:05:50.222Z",
+      "updatedByEmail": "g.lopes@sap.com"
+    },
+    {
+      "apiKey": "4_TwW7950ibbn2MjPNDn5IHw",
+      "siteId": 128739699036,
+      "id": "1673b167f6cc4e32bffa885eff35f215",
+      "name": "Krux_Dataflow",
+      "status": "draft",
+      "description": "account > rename > krux > lzo > s3",
+      "steps": [
+        {
+          "id": "account",
+          "type": "datasource.read.gigya.account",
+          "params": {
+            "select": "UID,profile.gender,profile.age",
+            "from": "accounts",
+            "deltaField": "lastUpdatedTimestamp",
+            "keepFieldNamesWithDotAsIs": false,
+            "batchSize": 300,
+            "maxConcurrency": 1
+          },
+          "next": [
+            "rename"
+          ]
+        },
+        {
+          "id": "rename",
+          "type": "field.rename",
+          "params": {
+            "fields": [
+              {
+                "sourceField": "UID",
+                "targetField": "id"
+              },
+              {
+                "sourceField": "profile.gender",
+                "targetField": "g_gender"
+              },
+              {
+                "sourceField": "profile.age",
+                "targetField": "g_age"
+              },
+              {
+                "sourceField": "profile.likes",
+                "targetField": "likes"
+              }
+            ]
+          },
+          "next": [
+            "krux"
+          ]
+        },
+        {
+          "id": "krux",
+          "type": "file.format.krux",
+          "params": {
+            "fileName": "Gigya_Krux_M6.csv",
+            "createEmptyFile": true,
+            "quoteFields": false,
+            "separator": ";"
+          },
+          "next": [
+            "lzo"
+          ]
+        },
+        {
+          "id": "lzo",
+          "type": "file.compress.lzo",
+          "params": {
+            "createIndexFile": true
+          },
+          "next": [
+            "s3"
+          ]
+        },
+        {
+          "id": "s3",
+          "type": "datasource.write.amazon.s3",
+          "params": {
+            "bucketName": "...",
+            "accessKey": "...",
+            "secretKey": "********",
+            "objectKeyPrefix": "...",
+            "region": "not specified"
+          }
+        }
+      ],
+      "createTime": "2025-01-10T15:05:50.222Z",
+      "updateTime": "2025-01-10T15:05:50.222Z",
+      "updatedByEmail": "g.lopes@sap.com"
+    },
+    {
+      "apiKey": "4_TwW7950ibbn2MjPNDn5IHw",
+      "siteId": 128739699036,
+      "id": "b50dfd9fe3a44bd4beeff4c4d961e124",
+      "name": "TESTING DATAFLOW",
+      "status": "draft",
+      "description": "account > rename > dsv > gzip > sftp",
+      "steps": [
+        {
+          "id": "account",
+          "type": "datasource.read.gigya.account",
+          "params": {
+            "select": "profile.email,profile.lastName,profile.firstName,profile.gender,profile.birthDay,profile.birthMonth,profile.birthYear,profile.address,profile.zip,profile.city,profile.state,profile.country,profile.phones.number,profile.nickname",
+            "from": "accounts",
+            "deltaField": "lastUpdatedTimestamp",
+            "keepFieldNamesWithDotAsIs": false,
+            "batchSize": 300,
+            "maxConcurrency": 1
+          },
+          "next": [
+            "rename"
+          ]
+        },
+        {
+          "id": "rename",
+          "type": "field.rename",
+          "params": {
+            "fields": [
+              {
+                "sourceField": "profile.email",
+                "targetField": "MAIL"
+              },
+              {
+                "sourceField": "profile.lastName",
+                "targetField": "NAME"
+              },
+              {
+                "sourceField": "profile.firstName",
+                "targetField": "FIRSTNAME"
+              },
+              {
+                "sourceField": "profile.gender",
+                "targetField": "GENDER"
+              },
+              {
+                "sourceField": "profile.birthDay",
+                "targetField": "BIRTH_DAY"
+              },
+              {
+                "sourceField": "profile.birthMonth",
+                "targetField": "BIRTH_MONTH"
+              },
+              {
+                "sourceField": "profile.birthYear",
+                "targetField": "BIRTH_YEAR"
+              },
+              {
+                "sourceField": "profile.address",
+                "targetField": "STREET"
+              },
+              {
+                "sourceField": "profile.zip",
+                "targetField": "POSTALCODE"
+              },
+              {
+                "sourceField": "profile.city",
+                "targetField": "CITY"
+              },
+              {
+                "sourceField": "profile.state",
+                "targetField": "PROVINCE"
+              },
+              {
+                "sourceField": "profile.country",
+                "targetField": "COUNTRY"
+              },
+              {
+                "sourceField": "profile.phones",
+                "targetField": "PHONE"
+              },
+              {
+                "sourceField": "profile.nickname",
+                "targetField": "USERNAME"
+              }
+            ]
+          },
+          "next": [
+            "remove"
+          ]
+        },
+        {
+          "id": "remove",
+          "type": "field.remove",
+          "params": {
+            "fields": [
+              "profile"
+            ]
+          },
+          "next": [
+            "dsv"
+          ]
+        },
+        {
+          "id": "dsv",
+          "type": "file.format.dsv",
+          "params": {
+            "fileName": "GIGYA_TO_SFTP_${now}.csv",
+            "columnSeparator": ",",
+            "escapeCharacter": "\"",
+            "quoteFields": true,
+            "maxFileSize": 5000,
+            "writeHeader": true,
+            "dsvFormatVersion": "Legacy",
+            "lineEnd": "\n",
+            "createEmptyFile": false
+          },
+          "next": [
+            "gzip"
+          ]
+        },
+        {
+          "id": "gzip",
+          "type": "file.compress.gzip",
+          "next": [
+            "sftp"
+          ]
+        },
+        {
+          "id": "sftp",
+          "type": "datasource.write.sftp",
+          "params": {
+            "host": "...",
+            "username": "...",
+            "password": "********",
+            "remotePath": "GigyaDaily",
+            "port": 22,
+            "timeout": 60,
+            "temporaryUploadExtension": false
+          }
+        }
+      ],
+      "createTime": "2025-01-10T15:05:50.043Z",
+      "updateTime": "2025-01-10T15:05:50.043Z",
+      "updatedByEmail": "g.lopes@sap.com"
+    }
+  ]
+}
