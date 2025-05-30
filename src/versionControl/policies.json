@@ -24,7 +24,7 @@
   },
   "passwordComplexity": {
     "minCharGroups": 0,
-    "minLength": 10
+    "minLength": 13
   },
   "security": {
     "accountLockout": {
