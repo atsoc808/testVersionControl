@@ -147,6 +147,21 @@
       {
         "name": "gigyaPhone",
         "enabled": true
+      },
+      {
+        "name": "gigyaEmail",
+        "enabled": false
+      },
+      {
+        "name": "gigyaTotp",
+        "enabled": false
+      },
+      {
+        "name": "gigyaPush",
+        "enabled": false,
+        "params": {
+          "defaultRuleset": "_off"
+        }
       }
     ],
     "emailProvider": {
