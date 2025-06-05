@@ -1,0 +1,21 @@
+[
+  {
+    "Enabled": false
+  },
+  {
+    "policy": {
+      "commonRules": [],
+      "rulesSets": [
+        {
+          "rules": [],
+          "id": "_off",
+          "description": "This policy represents a policy without any validations",
+          "enabled": true
+        }
+      ],
+      "tfaRegistrationScope": false,
+      "defaultPolicy": "_off",
+      "allowOverrideMode": "no"
+    }
+  }
+]
